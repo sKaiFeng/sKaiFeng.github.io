@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>GIT基本命令</title>
+    <link href="/2022/05/07/GIT%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/"/>
+    <url>/2022/05/07/GIT%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/</url>
+    
+    <content type="html"><![CDATA[<ul><li>git clone xxxxx   克隆代码</li><li>git add .    将代码放到暂存区</li><li>git commit -m “提交信息”</li><li>git push -u origin master   将代码提交到远程仓库</li><li>git branch 查看当前分支</li><li>git branch zhangsan  创建新的分支zhangsan</li><li>git log 提交日志</li><li>git checkout zhangsan 切换为zhangsan分支</li><li>git pull origin master 拉取最新代码</li><li>git reset –hard HEAD^ 版本回退 <del>（^表示回退到上一个版本，^^表示回退到上上一个版本，以此类推）</del>，如果要回退到前100个版本，这种方法肯定行不通，可以使用 <del>git reset –hard HEAD~100</del></li><li>git merge 分支名  和某个分支进行合并</li></ul>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>git</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hibernate</title>
     <link href="/2022/05/07/Hibernate/"/>
     <url>/2022/05/07/Hibernate/</url>
